@@ -2,9 +2,9 @@
 
 import argparse, json, requests
 
-parser = argparse.ArgumentParser("MAC address lookup")
+parser = argparse.ArgumentParser("Get Company Name from given mac address using api.macaddress.io REST api")
 parser.add_argument("--macaddr", required=True, help="MAC address")
-parser.add_argument("--apitoken", required=True, help="API token")
+parser.add_argument("--apitoken", required=True, help="api.macaddress.io API token")
 args = parser.parse_args()
 
 macaddr = args.macaddr
