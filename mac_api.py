@@ -1,7 +1,6 @@
 #!/bin/env python
 
 import argparse, json, requests
-from requests.auth import HTTPBasicAuth
 
 parser = argparse.ArgumentParser("MAC address lookup")
 parser.add_argument("--macaddr", required=True, help="MAC address")
